@@ -37,7 +37,7 @@ function ProductDetailContent() {
 
   if (!animal) {
     return (
-      <div className="min-h screen flex items-center justify-center bg-gray-50">
+       <div className="min-h screen flex items-center justify-center bg-gray-50">
         <div className="text-center bg-white p-12 rounded-2xl shadow-lg">
           <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <Package size={32} className="text-gray-400" />
@@ -112,7 +112,7 @@ function ProductDetailContent() {
                   onError={() => setImageError(true)}
                 />
               ) : (
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-green-50 to-emerald-50">
+                <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-green-50 to-emerald-50">
                   <span className="text-9xl opacity-20">
                     {getAnimalEmoji(animal.type)}
                   </span>

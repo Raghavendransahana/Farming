@@ -27,7 +27,7 @@ export function ProductsHeader() {
           [3, 15],
         ]}
         className={cn(
-          "[mask-image:radial-linear(500px_circle_at_center,white,transparent)]",
+          "mask-[radial-linear(500px_circle_at_center,white,transparent)]",
           "fill-green-400/20 stroke-green-500/30"
         )}
       />

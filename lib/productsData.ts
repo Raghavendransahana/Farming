@@ -110,24 +110,22 @@ export const animals: Animal[] = [
   },
   {
     id: "6",
-     type: "Duck",
-  name: "Native Farm Duck",
-  description: "Local duck breed, healthy and active. Ideal for egg and meat production with strong disease resistance.",
-  location: "Kochi",
-  state: "Kerala",
-  ownerName: "Sahana",
-  ownerPhone: "+91 9600389319",
-  ownerEmail: "sahana@nativefarm.com",
-  image: "/duck.png",
-  price: "₹2,500",
-  originalPrice: "₹3,200",
-  rating: 4.6,
-  reviews: 38,
-  colors: ["White", "Brown"],
-  sizes: ["Small", "Medium"]
-}
-
-
+    type: "Duck",
+    name: "Native Farm Duck",
+    description: "Local duck breed, healthy and active. Ideal for egg and meat production with strong disease resistance.",
+    location: "Kochi",
+    state: "Kerala",
+    ownerName: "Sahana",
+    ownerPhone: "+91 9600389319",
+    ownerEmail: "sahana@nativefarm.com",
+    image: "/duck.png",
+    price: "₹2,500",
+    originalPrice: "₹3,200",
+    rating: 4.6,
+    reviews: 38,
+    colors: ["White", "Brown"],
+    sizes: ["Small", "Medium"]
+  }
 ];
 
 export function getAnimalById(id: string): Animal | undefined {

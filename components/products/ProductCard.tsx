@@ -7,7 +7,7 @@ import { Card, Text, Group } from '@mantine/core';
 import { MapPin, ArrowRight, Heart } from 'lucide-react';
 import { useFavorites } from '@/contexts/FavoritesContext';
 import { ConfirmModal } from '@/components/ui/ConfirmModal';
-
+import chick from   "../assests/chicken.png"
 interface Animal {
   id: string;
   name: string;
